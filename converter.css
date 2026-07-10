@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "morsive";
+    src: url(morsive-free/Morsive\ Free.otf);
+}
+
+@font-face {
+    font-family: "borgate";
+    src: url(borgate-demo/BorgateDEMO-Regular.otf);
+}
+
+@font-face {
+    font-family: "happy";
+    src: url(inspires/Inspires.otf);
+}
+
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: whitesmoke;
+}
+
+#header{
+    font-size: 35px;
+    font-weight: bold;
+    background: #1D4ED8;
+    height: 450px;
+}
+
+.title{
+    font-family: "morsive";
+    color: white;
+    padding-top: 30px;
+    margin: 0;
+}
+
+input{
+    font-family: "borgate";
+    width: 230px;
+    height: 130px;
+    border-radius: 10px;
+    border: 1px solid rgb(185, 185, 185);
+    color: white;
+    text-align: center;
+    display: block;
+    margin: 50px auto 20px;
+    background: #1D4ED8;
+    font-size: 80px;
+    box-sizing: border-box;
+}
+
+button{
+    font-family: "happy";
+    font-weight: bold;
+    width: 230px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: #1D4ED8;
+    text-align: center;
+    margin: 20px auto 50px;
+    background: white;
+    padding: 5px;
+    font-size: 35px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px black;
+}
+
+.lenght, .volume, .mass{
+    font-family: "happy";
+    color: #44464d;
+    font-size: 25px;
+    margin: 50px auto;
+    height: 100px;
+    background: white;
+    width: 1500px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(185, 185, 185);
+}
+
+h2{
+    margin: 0;
+}
+
+p{
+    font-size: 30px;
+}
